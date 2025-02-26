@@ -107,5 +107,5 @@ Extensions:
 ## __To Do__
 
 1. Repair the Graph functions
-2. Change input format from json to Data
+2. Change input format from json to csv
 3. Implement DG Training solution for Perceptron
