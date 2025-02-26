@@ -103,3 +103,9 @@ Extensions:
     Multi-layer Perceptron (MLP): Stacking perceptrons with non-linear activation functions (e.g., sigmoid, ReLU).
     Backpropagation: Enables multi-layer training via gradient descent.
     Kernel Trick: Extends perceptrons to non-linear classification.
+
+## __To Do__
+
+1. Repair the Graph functions
+2. Change input format from json to Data
+3. Implement DG Training solution for Perceptron
