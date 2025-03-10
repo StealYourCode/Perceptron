@@ -64,7 +64,7 @@ def plot_perceptron_from_csv(csv_path):
         y_vals = slope * x_vals + intercept
 
         # Plot decision boundary
-        plt.plot(x_vals, y_vals, 'k-', label='Decision Boundary')
+        plt.plot(x_vals, y_vals, 'k--', label='Decision Boundary')
     else:
         # If W1 is zero, the boundary is a vertical line at x = -bias/W0
         plt.axvline(x=-bias / w0, color='k', linestyle='--', label='Decision Boundary')
